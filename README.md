@@ -1,5 +1,5 @@
 # Advertisement_Tagging
-Predicting tags for job advertisements
+Predicting tags for job advertisements.
 
 ## AIM
 Badly tagged job advertisements can fail to attract relevant jobseekers. This can result in a low number of applicants and the vacancies not being filled. The aim of this project is to predict three different tags for different ads.
