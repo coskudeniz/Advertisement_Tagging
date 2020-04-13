@@ -10,7 +10,7 @@ The dataset consists of 2 files, which are train and test sets. These are json f
 The train and test sets were too large to be uploaded as single files so they were broken down into smaller pieces. They can be found in the train and test folders. These smaller pieces can be combined together by using the combineData function that is in the combData.py file. 
 
 ## ML MODELS
-At the moment logistic regression, Naive Bayes and Neural Network models are trained for each tag seperately. For future work, a multi-task learning model will be implemented. The increse in mAP for object detection using convolutional networks with multi-task learning compared to learning each task stage-wise is shown in [1]. A similar idea can tried to be implemented for advertisement tagging. Also LSTMs can be another approach that can give more promising results. The models were compared based on accuracy measured on hold-out validation dataset.  
+At the moment logistic regression, Naive Bayes and Neural Network models are trained for each tag seperately. For future work, a multi-task learning model will be implemented. The increse in mAP (mean Average Precision) for object detection using convolutional networks with multi-task learning compared to learning each task stage-wise is shown in [1]. A similar idea can tried to be implemented for advertisement tagging. Also LSTMs can be another approach that can give more promising results. The models were compared based on accuracy measured on hold-out validation dataset.  
 
 
 ## REFERENCES
